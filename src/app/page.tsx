@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar/>
       <Carousel>
         {slides.map((s,index)=>(
-          <img key={index} src={s} alt={`Slides ${index+1}`} />
+          <img className="w-full h-full object-contain" key={index} src={s} alt={`Slides ${index+1}`} />
         ))}
       </Carousel>
     </div>

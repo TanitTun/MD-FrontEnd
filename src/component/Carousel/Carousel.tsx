@@ -23,7 +23,7 @@ const Carousel: React.FC<CarouselProps> = ({ children }) => {
       <div className='flex transition-transform duration-500'
       style={{ transform: `translateX(-${curr * 100}%)` }}>
         {slides.map((slide, index) => (
-          <div key={index} className="flex-shrink-0 w-full max-h-96 object-contain">
+          <div key={index} className="flex-shrink-0 w-full max-h-[500px] object-contain">
             {slide}
           </div>
         ))}
