@@ -6,6 +6,7 @@ const Navbar: React.FC = () => {
   return (
   // information section
   <div className='header-wrapper'>
+
     <div className='top-navigation-wrapper'>
       <div className='max-w-[1140px] flex p-0 mx-auto'>
         <div className='top-navigation-left-text flex'>

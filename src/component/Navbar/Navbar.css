@@ -2,6 +2,7 @@
     position: relative;
     left: 0px;
     right: 0px;
+    height: 150px;
 }
 
 .top-navigation-wrapper{
@@ -22,7 +23,7 @@
 
 .logo-container{
     margin-top: 10px;
-    margin-bottom: 41px;
+    margin-bottom: 20px;
     margin-left: 15px;
     margin-right: 15px;
     max-width: 200px;
